@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="pablo.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Arkanaoid Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">End Oyun</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Anasayfa</a></li>
+            <li><a href="#">Sayfa 1</a></li>
+            <li><a href="#">Sayfa 2</a></li>
+          </ul>
+          <form class="navbar-form navbar-right" action="/action_page.php">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Ara" name="search">
+            </div>
+            <button type="submit" class="btn btn-default">Gönder</button>
+          </form>
+        </div>
+      </nav>
+     
+    <div class="container">
+        <div id="ortala" class="jumbotron"><h1>Arkanaoid Oyunu</h1></div>
+        <span class="darkmode-ignore">
+        <main class="orta">
+        <div id="ground"></div>
+    </div>
+    </main><span> 
+
+    <footer>
+        <div class="container">
+           <div class="row">
+           
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <ul class="adress">
+                             <span>Adres</span>    
+                             <li>
+                                <p>Lorem ipsum dolor sit amet, vero omnis vocibus</p>
+                              </li>
+                                   
+                              <li>
+                                <p>+90 1234 56789</p>
+                              </li>
+                                   
+                              <li>
+                                <p>info@gmail.com</p>
+                              </li>
+                         </ul>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <ul class="contact">
+                             <span>Linkler</span>    
+                             <li>
+                                <a href="#">Anasayfa</a>
+                              </li>
+                                   
+                              <li>
+                                 <a href="#">İletişim</a>
+                              </li>
+                                   
+                              <li>
+                                <a href="#">Blog</a>
+                              </li>
+                                   
+                              <li>
+                                 <a href="#">Galeri </a>
+                              </li>
+                                   
+                              
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                         <div class="search-text"> 
+                            <div class="container">
+                                <div class="row text-center">
+                                 
+                                   <div class="form">
+                                        <span class="header-form">Giriş yap</span>    
+                                        <form id="search-form" class="form-search form-horizontal">
+                                            <input type="text" class="input-search" placeholder="Email Adres">
+                                            <button type="submit" class="btn-search"><span style="font-size:11px;">Gönder</span></button>
+                                        </form>
+                                    </div>
+                                
+                                </div>         
+                            </div>     
+                        </div>
+                    </div>
+               
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                       <ul class="social">
+                                  <span>Sosyal</span>    
+                                   <li>
+                                        <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                                   </li>
+                                  
+                                   <li>
+                                        <a href="#"><i class="fa fa-github fa-2x"></i></a>
+                                   </li>
+                                    
+                                   <li>
+                                        <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                                   </li>
+                                   
+                                   <li>
+                                        <a href="#"><i class="fa fa-tumblr fa-2x"></i></a>
+                                   </li>
+                                    
+                                   <li>
+                                        <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+                                  </li>
+                                  
+                         </ul>
+                   </div>
+               
+               
+           </div> 
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script> <!-- Dark mode script linki -->
+
+ <!-- Dark mode script kodu -->   <script> 
+        var options = {
+  bottom: '64px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: '&#x1f313;', // default: ''
+  autoMatchOsTheme: true // default: true
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+    </script>
+</body>
+</html>
